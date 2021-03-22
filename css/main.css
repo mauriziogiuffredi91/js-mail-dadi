@@ -6,9 +6,27 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-image: url('../img/dice-screen.jpg');
+    background-size: cover;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto; 
+
+}
+
+header{
+    height: 80px;
+    background-color: rgba(183, 168, 168, 0.4);
+}
+h1{
+    color: #151617d9;
     
 }
 
-h1{
-    color: red;
+.box-top{
+    text-align: center;
+    padding: 20px 0;
 }
+
