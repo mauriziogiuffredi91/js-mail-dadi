@@ -18,12 +18,16 @@ body {
 }
 
 header{
-    height: 80px;
+    height: 90px;
     background-color: rgba(183, 168, 168, .86);
 }
 h1{
     color: #151617d9;
     
+}
+
+.explanation{
+    margin: 10px 0;
 }
 
 .box-top{
@@ -71,8 +75,9 @@ h1{
 .parte-centrale{
     margin-top: 20px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    margin-left: 265px;
+    
 }
 
 .parte-centrale h2{
@@ -89,6 +94,8 @@ h1{
     align-items: center;
     font-size: 15px;
     color: floralwhite;
+    margin: 0 5px;
+
 }
     
 #dice_pc{
@@ -101,6 +108,8 @@ h1{
     align-items: center;
     font-size: 15px;
     color: floralwhite;
+    margin: 0 5px;
+
 }
 
 

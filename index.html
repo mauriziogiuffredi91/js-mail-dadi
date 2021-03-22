@@ -13,6 +13,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,900;1,500&display=swap" rel="stylesheet"> 
 
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
     <header>
@@ -20,6 +22,11 @@
         <div class="box-top container">
             
             <h1>Dice game</h1>
+
+            <h4 class="explanation">
+                Sfida il computer al gioco dei dadi, i numeri sono casuali e ogni giocatore può fare 
+                un punteggio da 1 a 6 ma ricorda, se pareggi il banco vince e tu perdi!
+            </h4>
         </div>
 
     </header>
@@ -39,13 +46,22 @@
             
             <div class="parte-centrale">
 
-                <div id="dice-player"></div>
+
+                <div class="uomo">
+                    <h3>Tu <i class="fas fa-user"></i></h3>
+                </div>
+
+                <span id="dice-player"></span>
 
 
                 <h2>VS</h2>
+
+                <div class="macchina">
+                    <h3>Computer <i class="fas fa-robot"></i></h3>
+                </div>
         
                 
-                <div id="dice_pc"></div>
+                <span id="dice_pc"></span>
         
                 
             </div>
