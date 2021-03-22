@@ -30,3 +30,92 @@ h1{
     padding: 20px 0;
 }
 
+.middle{
+    display: flex;
+    justify-content: center;
+    
+}
+.main_box{
+    width: 800px;
+    height: 360px;
+    background-color: rgba(183, 168, 168, .2);
+    border-radius: 2%;
+    margin-top: 80px;
+    
+
+}
+
+.parte-superiore{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.parte-superiore h2{
+    margin-top: 15px;
+}
+
+#login{
+    width: 530px;
+    height: 50px;
+    background-color: gray;
+    border-radius: 2%;
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.parte-centrale{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parte-centrale h2{
+    margin: 0 20px;
+}
+
+#dice-player{
+    width: 30px;
+    height: 30px;
+    background-color:#a82525;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: floralwhite;
+}
+    
+#dice_pc{
+    width: 30px;
+    height: 30px;
+    background-color: dodgerblue;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: floralwhite;
+}
+
+
+.parte-finale{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+}
+#winner{
+    width: 20%;
+    height: 20%;
+    background-color: gray;
+    border-radius: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
