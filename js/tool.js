@@ -53,3 +53,20 @@ Dice problem
 3 stampare il risultato
 
 */
+
+// 1 fase
+
+var playerNumber = document.getElementById("dice-player").innerHTML = Math.floor(Math.random() * 6 + 1);
+
+var pcNumber = document.getElementById("dice_pc").innerHTML = Math.floor(Math.random() * 6 + 1);
+
+// 2 fase
+
+if (playerNumber > pcNumber) {
+    document.getElementById("winner").innerHTML = 'Hai vinto'
+
+} else if (playerNumber === pcNumber) {
+    document.getElementById("winner").innerHTML = 'Pareggio, ma il banco vince sempre!'
+} else{
+    document.getElementById("winner").innerHTML = 'Hai perso'
+}
