@@ -19,6 +19,7 @@ var mailUtente = prompt('Inserire la propria mail').toLowerCase();
 
 //2 fase 
 var mail = ["mario@gmail.com", "rocco@alice.it", "giuseppe@hotmail.com", "pippo@yahoo.com"];
+// mailFound = false;
 
 // console.log(mail.length);
 
@@ -29,7 +30,9 @@ for (var i = 0; i < mail.length; i++){
     if (mail [i] === mailUtente){
         mailFound = true;
         break;
-    } 
+    } else {
+        mailFound = false;
+    }
     
 
 }
@@ -39,7 +42,7 @@ if (mailFound === true){
     document.getElementById("login").innerHTML = 'Benvenuto ' + mailUtente;
 
 } else {
-    document.getElementById("login").innerHTML = 'Impossibile accedere, mail non registrata';
+    document.getElementById("login").innerHTML = 'Impossibile accedere, sei registrato come visitatore';
 
 }
 /*
